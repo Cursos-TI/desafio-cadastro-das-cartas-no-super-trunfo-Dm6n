@@ -21,7 +21,6 @@ int main() {
     char cidade [20];
     int população, pontos_turísticos;
     float área, pib;
-    return 0;
 
     printf ("Digite o código da cidade:\n");
     scanf ("%s", &código);
@@ -43,4 +42,6 @@ int main() {
 
     printf ("%s Cidade - %s\n", código, cidade);
     printf ("População: %d\nÁrea: %f\nPontos turísticos: %d\nPIB: %f\n", população, área, pontos_turísticos, pib);
+
+return 0;
 }
