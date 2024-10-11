@@ -18,30 +18,30 @@ int main() {
     // Exiba os valores inseridos para cada atributo da cidade, um por linha.
     
     char cidade [20];
-    char código [3];
-    int população, pontos_turísticos;
-    float área, pib;
+    char codigo [3];
+    int populacao, pontos_turisticos;
+    float area, pib;
 
     printf ("Digite o código da cidade:\n");
-    scanf ("%s", &código);
-    
+    scanf ("%s", codigo);
+
     printf ("Digite o nome da cidade:\n");
-    scanf ("%s", &cidade);
+    scanf (" %s", cidade);
 
     printf ("Digite a população:\n");
-    scanf ("%d", &população);
+    scanf (" %d", &populacao);
 
     printf ("Qual a área da cidade?\n");
-    scanf ("%f", &área);
+    scanf (" %f", &area);
 
     printf ("Existem quantos pontos turísticos?\n");
-    scanf ("%d", &pontos_turísticos);
+    scanf (" %d", &pontos_turisticos);
 
     printf ("Qual o PIB?\n");
-    scanf ("%f", &pib);
+    scanf (" %f", &pib);
 
-    printf ("%s Cidade - %s\n", código, cidade);
-    printf ("População: %d\nÁrea: %f\nPontos turísticos: %d\nPIB: %f\n", população, área, pontos_turísticos, pib);
+    printf ("%s Cidade - %s\n", codigo, cidade);
+    printf ("População: %d\nÁrea: %f\nPontos turisticos: %d\nPIB: %f\n", populacao, area, pontos_turisticos, pib);
 
 return 0;
 }
